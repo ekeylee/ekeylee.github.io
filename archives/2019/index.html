@@ -79,13 +79,13 @@
 
 
 
-<meta name="description" content="李益达的笔记，生活不只是代码">
+<meta name="description" content="路漫漫其修远兮">
 <meta name="keywords" content="李益达,ekeylee,绵竹,Python,PHP,数据联动,优易创想,程序员,Vue,Nodejs">
 <meta property="og:type" content="website">
-<meta property="og:title" content="李益达笔记">
+<meta property="og:title" content="Ekey.Lee&#39;s Note">
 <meta property="og:url" content="http:&#x2F;&#x2F;ekeylee.com&#x2F;archives&#x2F;2019&#x2F;index.html">
-<meta property="og:site_name" content="李益达笔记">
-<meta property="og:description" content="李益达的笔记，生活不只是代码">
+<meta property="og:site_name" content="Ekey.Lee&#39;s Note">
+<meta property="og:description" content="路漫漫其修远兮">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 
@@ -123,7 +123,7 @@
 
 
 
-  <title>归档 | 李益达笔记</title>
+  <title>归档 | Ekey.Lee's Note</title>
   
 
 
@@ -153,12 +153,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">李益达笔记</span>
+        <span class="site-title">Ekey.Lee's Note</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">自留地</p>
+        <p class="site-subtitle">生活不只是代码</p>
       
   </div>
 
@@ -184,6 +184,36 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -316,8 +346,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">Ekey.Lee</p>
-              <p class="site-description motion-element" itemprop="description">李益达的笔记，生活不只是代码</p>
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="李益达" />
+            
+              <p class="site-author-name" itemprop="name">李益达</p>
+              <p class="site-description motion-element" itemprop="description">路漫漫其修远兮</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -334,7 +368,25 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -388,7 +440,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Ekey.Lee</span>
+  <span class="author" itemprop="copyrightHolder">李益达</span>
 
   
 </div>
@@ -546,26 +598,30 @@
 
 
 
-<!-- LOCAL: You can save these files to your site and update links -->
-    
-        
-        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
-        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
-    
-<!-- END LOCAL -->
-
-    
-      <style>
-        a.gitment-editor-footer-tip { display: none; }
-        .gitment-container.gitment-footer-container { display: none; }
-      </style>
-    
-
-    
 
 
 
-
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '3jxu3q3X3Yut82K9aB0Jh3QJ-gzGzoHsz',
+        appKey: 'mg1nWfUPkKPSazWeKbC3oQ73',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
