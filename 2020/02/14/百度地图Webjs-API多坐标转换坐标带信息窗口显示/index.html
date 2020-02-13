@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="李益达,ekeylee,绵竹,Python,PHP,数据联动,优易创想,程序员,Vue,Nodejs" />
+  <meta name="keywords" content="百度,api," />
 
 
 
@@ -79,14 +79,15 @@
 
 
 
-<meta name="description" content="路漫漫其修远兮">
-<meta name="keywords" content="李益达,ekeylee,绵竹,Python,PHP,数据联动,优易创想,程序员,Vue,Nodejs">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Ekey.Lee&#39;s Note">
-<meta property="og:url" content="http:&#x2F;&#x2F;ekeylee.com&#x2F;index.html">
+<meta name="description" content="需求对话: 使用webjs呈现多点坐标，但是手上有的坐标为GPS原生坐标，生成出来的坐标还需要能够点击就能出现备注文字！  OK，如果你是以上需求，就直接上代码吧，说真心的百度地图的js API写的还是很详细，所以上手很简单，也不想画太多时间去细讲，如果连百度的API都教不会，那这篇教程就更教不会了（重点：在看官方提供的文档时候，可以多试试实例，然后实例相互融合一下，你就会懂了） 1234567">
+<meta name="keywords" content="百度,api">
+<meta property="og:type" content="article">
+<meta property="og:title" content="百度地图Webjs API多坐标转换坐标带信息窗口显示">
+<meta property="og:url" content="http:&#x2F;&#x2F;ekeylee.com&#x2F;2020&#x2F;02&#x2F;14&#x2F;%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEWebjs-API%E5%A4%9A%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2%E5%9D%90%E6%A0%87%E5%B8%A6%E4%BF%A1%E6%81%AF%E7%AA%97%E5%8F%A3%E6%98%BE%E7%A4%BA&#x2F;index.html">
 <meta property="og:site_name" content="Ekey.Lee&#39;s Note">
-<meta property="og:description" content="路漫漫其修远兮">
+<meta property="og:description" content="需求对话: 使用webjs呈现多点坐标，但是手上有的坐标为GPS原生坐标，生成出来的坐标还需要能够点击就能出现备注文字！  OK，如果你是以上需求，就直接上代码吧，说真心的百度地图的js API写的还是很详细，所以上手很简单，也不想画太多时间去细讲，如果连百度的API都教不会，那这篇教程就更教不会了（重点：在看官方提供的文档时候，可以多试试实例，然后实例相互融合一下，你就会懂了） 1234567">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2020-02-13T17:00:07.762Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -117,13 +118,13 @@
 
 
 
-  <link rel="canonical" href="http://ekeylee.com/"/>
+  <link rel="canonical" href="http://ekeylee.com/2020/02/14/百度地图Webjs-API多坐标转换坐标带信息窗口显示/"/>
 
 
 
 
 
-  <title>Ekey.Lee's Note</title>
+  <title>百度地图Webjs API多坐标转换坐标带信息窗口显示 | Ekey.Lee's Note</title>
   
 
 
@@ -142,8 +143,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -246,9 +246,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -278,9 +278,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2020/02/14/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEWebjs-API%E5%A4%9A%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2%E5%9D%90%E6%A0%87%E5%B8%A6%E4%BF%A1%E6%81%AF%E7%AA%97%E5%8F%A3%E6%98%BE%E7%A4%BA/" itemprop="url">百度地图Webjs API多坐标转换坐标带信息窗口显示</a></h1>
+          <h1 class="post-title" itemprop="name headline">百度地图Webjs API多坐标转换坐标带信息窗口显示</h1>
         
 
         <div class="post-meta">
@@ -362,22 +360,17 @@
       
 
       
-        
-          
-          
-需求对话:
-使用webjs呈现多点坐标，但是手上有的坐标为GPS原生坐标，生成出来的坐标还需要能够点击就能出现备注文字！
+        <blockquote>
+<p>需求对话:</p>
+<p>使用webjs呈现多点坐标，但是手上有的坐标为GPS原生坐标，生成出来的坐标还需要能够点击就能出现备注文字！</p>
+</blockquote>
+<p>OK，如果你是以上需求，就直接上代码吧，说真心的百度地图的js API写的还是很详细，所以上手很简单，也不想画太多时间去细讲，如果连百度的API都教不会，那这篇教程就更教不会了（重点：在看官方提供的文档时候，可以多试试实例，然后实例相互融合一下，你就会懂了）</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 百度地图API功能</span></span><br><span class="line">    map = <span class="keyword">new</span> BMap.Map(<span class="string">"allmap"</span>);</span><br><span class="line">    map.centerAndZoom(<span class="keyword">new</span> BMap.Point(<span class="number">116.417854</span>, <span class="number">39.921988</span>), <span class="number">15</span>);</span><br><span class="line">    <span class="keyword">var</span> data_info = [[<span class="number">104.50676910539</span>, <span class="number">31.291702886722</span>, <span class="string">"只能转义，并不能使用\n"</span>],</span><br><span class="line">        [<span class="number">116.406605</span>, <span class="number">39.921585</span>, <span class="string">"段行回车&lt;br&gt;我在下一行了"</span>],</span><br><span class="line">        [<span class="number">116.412222</span>, <span class="number">39.912345</span>, <span class="string">"地址：北京市东城区正义路甲5号"</span>]</span><br><span class="line">    ];</span><br><span class="line">    <span class="keyword">var</span> opts = &#123;</span><br><span class="line">        width: <span class="number">250</span>,     <span class="comment">// 信息窗口宽度</span></span><br><span class="line">        height: <span class="number">80</span>,     <span class="comment">// 信息窗口高度</span></span><br><span class="line">        enableMessage: <span class="literal">true</span><span class="comment">//设置允许信息窗发送短息</span></span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//坐标转换完之后的回调函数</span></span><br><span class="line">    translateCallback = <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (data.status === <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; data.points.length; i++) &#123;</span><br><span class="line">                <span class="keyword">var</span> marker = <span class="keyword">new</span> BMap.Marker(data.points[i]);</span><br><span class="line">                <span class="keyword">var</span> content = data_info[i][<span class="number">2</span>]</span><br><span class="line">                <span class="built_in">console</span>.log(data.points)</span><br><span class="line">                <span class="built_in">console</span>.info(<span class="string">'sd'</span>, marker)</span><br><span class="line">                map.addOverlay(marker);</span><br><span class="line">                addClickHandler(content,marker);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> array = [];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; data_info.length; i++) &#123;</span><br><span class="line">        <span class="keyword">var</span> marker = <span class="keyword">new</span> BMap.Marker(<span class="keyword">new</span> BMap.Point(data_info[i][<span class="number">0</span>], data_info[i][<span class="number">1</span>]));  <span class="comment">// 创建标注</span></span><br><span class="line">        <span class="keyword">var</span> convertor = <span class="keyword">new</span> BMap.Convertor();</span><br><span class="line">        array.push(marker.point)</span><br><span class="line">        convertor.translate(array, <span class="number">1</span>, <span class="number">5</span>, translateCallback)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">addClickHandler</span>(<span class="params">content, marker</span>) </span>&#123;</span><br><span class="line">        marker.addEventListener(<span class="string">"click"</span>, <span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">                openInfo(content, e)</span><br><span class="line">            &#125;</span><br><span class="line">        );</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">openInfo</span>(<span class="params">content, e</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> p = e.target;</span><br><span class="line">        <span class="keyword">var</span> point = <span class="keyword">new</span> BMap.Point(p.getPosition().lng, p.getPosition().lat);</span><br><span class="line">        <span class="keyword">var</span> infoWindow = <span class="keyword">new</span> BMap.InfoWindow(content, opts);  <span class="comment">// 创建信息窗口对象</span></span><br><span class="line">        map.openInfoWindow(infoWindow, point); <span class="comment">//开启信息窗口</span></span><br><span class="line">    &#125;</span><br><span class="line">    map.enableScrollWheelZoom(<span class="literal">true</span>);     <span class="comment">//开启鼠标滚轮缩放</span></span><br></pre></td></tr></table></figure>
 
-OK，如果你是以上需求，就直接上代码吧，说真心的百度地图的js API写的还是很详细，所以上手很简单，也不想画太多时间去细讲，如果连百度的API都教不会，那这篇教程就更教不会
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2020/02/14/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEWebjs-API%E5%A4%9A%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2%E5%9D%90%E6%A0%87%E5%B8%A6%E4%BF%A1%E6%81%AF%E7%AA%97%E5%8F%A3%E6%98%BE%E7%A4%BA/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+
+
+<p>完</p>
+
       
     </div>
     
@@ -389,175 +382,59 @@ OK，如果你是以上需求，就直接上代码吧，说真心的百度地图
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    李益达
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://ekeylee.com/2020/02/14/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEWebjs-API%E5%A4%9A%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2%E5%9D%90%E6%A0%87%E5%B8%A6%E4%BF%A1%E6%81%AF%E7%AA%97%E5%8F%A3%E6%98%BE%E7%A4%BA/" title="百度地图Webjs API多坐标转换坐标带信息窗口显示">http://ekeylee.com/2020/02/14/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BEWebjs-API%E5%A4%9A%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2%E5%9D%90%E6%A0%87%E5%B8%A6%E4%BF%A1%E6%81%AF%E7%AA%97%E5%8F%A3%E6%98%BE%E7%A4%BA/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://ekeylee.com/2019/11/10/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="李益达">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ekey.Lee's Note">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/11/10/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-10T22:05:10+08:00">
-                2019-11-10
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Python/" itemprop="url" rel="index">
-                    <span itemprop="name">Python</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/%E7%99%BE%E5%BA%A6/" rel="tag"># 百度</a>
           
-
+            <a href="/tags/api/" rel="tag"># api</a>
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/11/10/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/11/10/hello-world/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/11/10/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/11/10/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
 
-    
+          <span class="post-nav-divider"></span>
 
-    
-
-    
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -567,10 +444,11 @@ OK，如果你是以上需求，就直接上代码吧，说真心的百度地图
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -578,6 +456,13 @@ OK，如果你是以上需求，就直接上代码吧，说真心的百度地图
 
 
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
 
         </div>
         
@@ -819,6 +704,10 @@ OK，如果你是以上需求，就直接上代码吧，说真心的百度地图
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
